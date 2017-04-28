@@ -1,0 +1,72 @@
+.bd{
+	overflow: hidden;
+	zoom: 1;
+}
+.bd-w{
+	background: white;
+}
+.cityList{
+	font-size: 20px;
+}
+.cityList .city_header{
+	width: 100%;
+	line-height: 1.8rem;	
+	text-align: center;
+}
+.cityList .city_header mark{
+	color: #ff8963;
+}
+.cityList .hot_city{
+	width: 100%;
+	line-height: 1.8rem;
+	border-bottom:  1px solid #e0e0e0;
+	border-top:  1px solid #e0e0e0;
+}
+.cityList .all_hot_city .hot_city_name{
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	float: left;
+	line-height: 1.8rem;
+	text-align: center;
+}
+.cityList .all_hot_city span:nth-child(2n+2),.city_container span:nth-child(3n){
+	border-right:none;
+}
+.cityList .all_city{
+	width: 100%;
+	line-height: 1.8rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+.city_caps{
+	width: 20%;
+	display: inline-block;
+	float: left;
+	line-height: 1.8rem;
+	text-align: center;
+	color: #ff8963;
+}
+.city_caps-single{
+	width: 100%;
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 1.5rem;
+}
+.city_container{
+	width: 100%;
+	background: white;
+}
+.city_container .cityName{
+	width: 33.3%;
+	display: inline-block;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	float: left;
+	line-height: 1.8rem;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

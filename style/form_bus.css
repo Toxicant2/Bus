@@ -1,0 +1,110 @@
+.form_bus .bus_header{
+	width: 13.44rem;
+	height: 4.7146666667rem;
+	background-size: 100% 100%;
+	background-image: url(../img/formimg/title.jpg);
+	position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1rem;
+}
+.form_bus .form_tilte{
+	width: 100%;
+	text-align:center;
+	margin :0 auto;
+	font-weight: bolder;
+	margin-top: 1rem;
+}
+.form_bus .form_content{
+	width: 87%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.form_content .form_city{
+	width: 100%;
+	font-size: 25px;
+	margin-bottom: .6rem;
+}
+.form_city mark{
+	color: #ff8903;
+	padding-left: .3rem;
+}
+.form_content .form_city:before{
+	content: '';
+	display: inline-block;
+	width: 0.6613333333rem;
+	height: 0.768rem;
+	background-size: 100% 100%;
+	background-image: url(../img/formimg/20.png);
+}
+.form_content .form_city:after{
+	content: '';
+	display: inline-block;
+	width: 0.7253333333rem;
+	height: 0.8746666667rem;
+	background-size: 100% 100%;
+	background-image: url(../img/formimg/21.png);
+}
+.up_part{
+	width: 100%;
+	background: white;
+	border-radius: 5px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: .7rem;
+}
+.home_addr{
+	border-bottom: 1px solid #e0e0e0;
+}
+.home_addr b,.work_addr b{
+	display: inline-block;
+	width: 0.7893333333rem;
+	height: 0.6186666667rem;
+	background-size: 100% 100%;
+	background-image: url(../img/formimg/fam.png);
+	margin-left: .3rem;
+}
+.work_addr b{
+	background-image: url(../img/formimg/com.png);
+}
+.home_addr input,.work_addr input{
+	outline: 0;
+	border:0;
+	height: 1.6rem;
+	margin: .1rem;
+	color: gray;
+	font-size: 20px;
+}
+.morning{
+	border-bottom: 1px solid #e0e0e0;
+}
+.morning b,.evening b{
+	display: inline-block;
+	width: 0.8533333333rem;
+	height: 0.8533333333rem;
+	background-size: 100% 100%;
+	background-image: url(../img/formimg/mor.png);
+	margin: .3rem 0 0 .3rem;
+}
+.evening b{
+	background-image: url(../img/formimg/eve.png);
+}
+.down_part .time{
+	display: inline-block;
+	width: 88%;
+	font-size: 20px;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	color: gray;
+	padding: .1rem;
+}
+.contentblock{
+	width: 8.192rem;
+	height: 3.008rem;
+	background-size: 100% 100%;
+	background-image: url(../img/formimg/dis_submit.png);
+	margin: 0 auto;
+	margin-top:1.5rem;
+}
+.active{
+	background-image: url(../img/formimg/suc_submit.png);
+}

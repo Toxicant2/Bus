@@ -1,0 +1,139 @@
+.inl{
+	display: inline-block;
+}
+.rank .rank_header{
+	position: relative;
+}
+.rank .header_logo{
+	position: relative;
+	width: 14.784rem;
+	height: 6.8693333333rem;
+	background-image: url(../img/rankimg/titlelogo.png);
+	background-size: 100% 100%;
+	left: 50%;
+	transform:translate(-50%);
+	-webkit-transform:translate(-50%);
+}
+.rank .header_rule{
+	position: absolute;
+	top:.5rem;
+	right: .95rem;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+.rank .header_title{
+	position: absolute;
+	width: 100%;
+	top:4.8rem;
+	text-align: center;
+	font-weight: bolder;
+}
+.rank .rank_list{
+	position: relative;
+	width: 13.7rem;
+	max-height: 15.266667rem;
+	background:white;
+	margin: .8rem auto;
+	overflow: hidden;
+}
+.rank .rank_list .list_item{
+	margin: 0 .5rem;
+	background: white;
+	width: 13.533333rem;
+}
+.rank .rank_list .list_item li{
+	position: relative;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	border-bottom: 1px solid rgba(102,102,102,.14);
+}
+.rank .left_pane{
+	background: white;
+	z-index: 10;
+	position: relative;
+	padding-left: 0.7rem;
+	left: -.7rem;
+}
+.rank .left_pane .rank_num{
+	width: 0.9173333333rem;
+	height: 0.8746666667rem;
+	background-image: url(../img/rankimg/blackIcon.png);
+	background-size: 100% 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8746666667rem;
+	font-size: 15px;
+	margin-right: .2rem;
+}
+.rank .left_pane .rank_city{
+	font-size: 16px;
+}
+.rank .right_pane{
+	position: relative;
+    width: 10.44rem;
+    background: white;
+    z-index: 7;
+    left: 0;
+    margin-left: -2.8rem;
+    transition: left 2s linear;
+	-webkit-transition: left 2s linear;
+}
+.rank .bus_info{
+	width: 1.8773333333rem;
+	height: 0.768rem;
+	background-image: url(../img/rankimg/buslogo.png);
+	background-size: 100% 100%;
+	line-height: 0.768rem;
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+}
+.rank .bar_line{
+	width: 8.128rem;
+	height: 0.64rem;
+	background-image: url(../img/rankimg/bar.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.82rem;
+    left: 2.7rem;
+}
+.city_bar{
+	width: 6.1013333333rem;
+	height: 1.536rem;
+	background-image: url(../img/rankimg/city.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: .19rem;
+    left: 5.5rem;
+    animation-delay: 1.5s;
+}
+.rank .submit_button{
+	width: 8.3626666667rem;
+	height: 2.944rem;
+	background-image: url(../img/rankimg/skip.png);
+	background-size: 100% 100%;
+	margin: 0 auto;
+    margin-top: 1.5rem
+}
+@keyframes runcity{
+	from {
+		transform:translateX(9rem);
+		-webkit-transform:translateX(9rem);
+	}
+	100% {
+		transform:translateX(-12rem);
+		-webkit-transform:translateX(-12rem);
+	}
+}
+@-webkit-keyframes runcity{
+	from {
+		transform:translateX(9rem);
+		-webkit-transform:translateX(9rem);
+	}
+	100% {
+		transform:translateX(-12rem);
+		-webkit-transform:translateX(-12rem);
+	}
+}
+

@@ -1,0 +1,111 @@
+.home .home_header {
+	position: relative;	
+	width: 100%;
+	top: 2.8rem;
+}
+.home .home_header .header_logo{
+	position: relative;
+	left: .3rem;
+	width: 14.336rem;
+	height: 15.3813333333rem;
+	background-size: 100% 100%;
+	background-image: url(../img/homeimg/1.png);
+	animation: bounceInDown 2s 1 linear both;
+	-webkit-animation: bounceInDown 2s 1 linear both;
+	animation-delay: .5s;
+}
+.home .home_header .header_title{
+	position: absolute;
+	width: 7.1893333333rem;
+	height: 2.0266666667rem;
+	background-size: 100% 100%;
+	background-image: url(../img/homeimg/text.png);
+	top: 12.4rem;
+	right: 2.3rem;
+	animation: slideInRight 2s 1 cubic-bezier(0.18,.89,.32,1.28) both;
+	-webkit-animation:slideInRight 2s 1 cubic-bezier(0.18,.89,.32,1.28) both;
+}
+.home .home_middle {
+	position: relative;
+}
+.home .home_middle .bg_left{
+	position: absolute;
+	top:-0.85rem;
+	left: 0;
+	width: 13.9733333333rem;
+	height: 9.9626666667rem;
+	background-image: url(../img/homeimg/left.png);
+	background-size: 100% 100%;
+}
+.home .home_middle .bg_center{
+	position: absolute;
+	top: -3.85rem;
+	left: 4.6rem;
+	width: 11.2rem;
+	height: 9.3226666667rem;
+	background-image: url(../img/homeimg/middle.png);
+	background-size: 100% 100%;
+}
+.home .home_middle .bg_right{
+	position: absolute;
+	top:-0.85rem;
+	right: 0;
+	width: 11.3493333333rem;
+	height: 9.344rem;
+	background-image: url(../img/homeimg/right.png);
+	background-size: 100% 100%;
+}
+.home .home_middle .middle_bus{
+	position: absolute;
+	width: 12.16rem;
+	height: 4.4586666667rem;
+	background-image: url(../img/homeimg/bus.png);
+	background-size: 100% 100%;
+	top: 4.5rem;
+	left: 2rem;
+	animation: slideInRight 2s 1 cubic-bezier(0.18,.89,.32,1.28) both;
+	-webkit-animation:slideInRight 2s 1 cubic-bezier(0.18,.89,.32,1.28) both;
+}
+.home .home_footer {
+	position: relative;
+	top:5.5rem;
+}
+.home .home_footer .people_down{
+	position: absolute;
+	width: 16.0rem;
+	height: 7.5306666667rem;
+	background-image: url(../img/homeimg/people.png);
+	background-size: 100% 100%;
+	animation: bounceInUp 2s 1 linear both;
+	-webkit-animation: bounceInUp 2s 1 linear both;
+}
+.home .home_footer .people_up{
+	position: absolute;
+	width: 16.0rem;
+	height: 7.5306666667rem;
+	background-image: url(../img/homeimg/5.png);
+	background-size: 100% 100%;
+	animation: bounceInUp 2s 1 linear both;
+	-webkit-animation: bounceInUp 1.5s 1 linear both;
+	animation-delay: 0.5s;
+}
+body .home .home_header .header_logo_out{
+	animation: bounceOutUp 1s 1 linear both;
+	-webkit-animation: bounceOutUp 1s 1 linear both;
+}
+body .home .home_header .header_title_out{
+	animation: slideOutRight 1s 1 linear both;
+	-webkit-animation:slideOutRight 1s 1 linear both;
+}
+body .home .home_middle .middle_bus_out{
+	animation: slideOutLeft 1s 1 linear both;
+	-webkit-animation:slideOutLeft 1s 1 linear both;
+}
+body .home .home_footer .people_down_out{
+	animation: bounceOutDown 1s 1 linear both;
+	-webkit-animation: bounceOutDown 1s 1 linear both;
+}
+body .home .home_footer .people_up_out{
+	animation: bounceOutDown 1s 1 linear both;
+	-webkit-animation: bounceOutDown 1s 1 linear both;
+}

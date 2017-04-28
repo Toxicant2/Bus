@@ -1,0 +1,46 @@
+html,body{
+	height: 100%;
+}
+body{
+	box-sizing: border-box;
+	background:#f7f7f7;
+	background-image: url(../img/gbackground.png);
+}
+.layer_content{
+	width: 15.3386666667rem;
+	height: 16.1706666667rem;
+	background-image: url(../img/rankimg/rule.jpg);
+	background-size: 100% 100%;
+	z-index: 2;
+	position: relative;
+	top:50%;
+	left: 54%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+}
+.rule_title{
+	position: absolute;
+	top: 2rem;
+	left: 5rem;
+	color: #ff8903;
+	font-weight: bolder;
+}
+.layer_content p{
+	position: absolute;
+    width: 10rem;
+    left: 2.5rem;
+    top: 3.8rem;
+    font-size: 20px
+}
+.layer_content .rule_submit{
+	width: 9rem;
+    position: absolute;
+    height: 1.8rem;
+    background: #ff8903;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8rem;
+    left: 2.5rem;
+    border-radius: 5px;
+    top:10rem;
+}

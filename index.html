@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FirstProject</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/animate.css">
+	<link rel="stylesheet" href="style/common.css">
+	<link rel="stylesheet" href="style/home.css">
+	<link rel="stylesheet" href="style/rank.css">
+	<link rel="stylesheet" href="style/login.css">
+	<link rel="stylesheet" href="style/form_bus.css">
+	<link rel="stylesheet" href="style/cityList.css">
+	<link rel="stylesheet" href="js/Plugin/spinwheel.css">
+</head>
+<body>
+	<section id="home" class="home" style='display: none;'>
+		<header class="home_header">
+			<section class="header_logo"></section>
+			<section class="header_title"></section>
+		</header>
+		<section class="home_middle">
+			<div class="city_bg">				
+				<div class="bg_left"></div>
+				<div class="bg_center"></div>
+				<div class="bg_right"></div>
+			</div>
+			<div class="middle_bus"></div>
+		</section>
+		<footer class="home_footer">
+			<section class="people_down"></section>
+			<section class="people_up"></section>
+		</footer>
+	</section>
+	<section id="rank" class="rank" style='display: none;'>
+		<header class="rank_header">
+			<section class="header_logo"></section>
+			<section class="header_rule">活动规则</section>
+			<section class="header_title">
+				全民助力夺榜单<br>免费上班专线抢先坐
+			</section>
+		</header>
+		<section class='rank_list'>
+			<ul class="list_item">
+				
+			</ul>
+		</section>
+		<footer class="submit_button"></footer>		
+	</section>
+	<section id="form_bus" class="form_bus" style='display: none;'>
+		<header class="bus_header"></header>
+		<div class="form_tilte">请认真填写乘车需求<br>为城市夺榜助力</div>
+		<div class="form_content">
+			<div class="form_city">
+				<span>参战城市：<mark class="selcity">定位失败</mark></span>
+			</div>
+			<form action="" method="post">
+				<div class="up_part">	
+					<div class="home_addr">
+						<b></b>			
+						<input name="home_addr" type="text" placeholder="家庭地址">
+					</div>
+					<div class="work_addr">
+						<b></b>
+						<input name="work_addr" type="text" placeholder="工作地址">
+					</div>
+				</div>
+				<div class="up_part down_part">
+					<div class="morning">
+						<b></b>
+						<div class="time morning_time" data-tips="上班时间" data-key="morning" data-starttime="10" data-datewheel="">什么时候上班</div>
+						<input type="hidden" name="morning_time">
+					</div>
+					<div class="evening">
+						<b></b>
+						<div class="time evening_time" data-tips="下班时间"  data-key="evening" data-starttime="21" data-datewheel="">什么时候下班</div>
+						<input type="hidden" name="evening_time">
+					</div>
+				</div>
+			</form>
+			<div class="collect_submit contentblock"></div>
+		</div>
+	</section>
+	<section id="login" class="login" style='display: none;'>
+		<header class="login_header"></header>
+		<div class="login_desc"><span>请留下联系方式<br>您将在第一时间获知夺榜结果</span></div>
+		<form action="" name = "userInfo" class="userInfo">
+			<input type="tel" name = "name" placeholder="电话" maxlength="11" class = "tel" id = "tel">
+			<span class="confirm">验证</span><br>
+			<input type="text" placeholder="验证码" maxlength="4" class = "code" id = "code"><br>
+			<button class = "submit_btn">确认</button>
+		</form>
+	</section>
+	<section id="cityList" class="cityList" style='display: none;'>
+		<header class="city_header bd-w">
+			<span>当前定位城市：<mark>无</mark></span>
+		</header>
+		<div class="hot_city">已开通城市</div>
+		<div class="all_hot_city bd bd-w">
+
+		</div>
+		<div class="all_city">全部城市</div>
+		<div class="all_city_caps bd bd-w">
+			
+		</div>
+		<div class="allcityContainer">
+			
+		</div>		
+	</section>
+	<script src='js/zepto.js'></script>
+	<script src='js/director.js'></script>
+	<script src='js/rem.js'></script>
+	<script src='js/iscroll.js'></script>
+	<script src='js/Plugin/fastclick.js'></script>
+	<script src='js/Plugin/vex.js'></script>
+	<script src='js/Plugin/SpinningWheel.js'></script>
+	<script src='js/Plugin/spinwheel_index.js'></script>
+	<script src='js/Widget/layer.js'></script>
+	<script src='js/Module/baseModule.js'></script>
+	<script src='js/Module/home.js'></script>
+	<script src='js/Module/rank.js'></script>
+	<script src='js/Module/login.js'></script>
+	<script src='js/Module/form_bus.js'></script>
+	<script src='js/Module/cityList.js'></script>
+	<script src='js/tool.js'></script>
+	<script src='js/route.js'></script>
+	<script src='js/init.js'></script>
+</body>
+</html>

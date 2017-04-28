@@ -1,0 +1,68 @@
+.login_header{
+	position: relative;
+	width: 12.16rem;
+	height: 3.0506666667rem;
+	background-size: 100% 100%;
+	background-image: url(../img/32.pic.jpg);
+	margin:0 auto;
+	margin-top: 2.5rem;
+}
+.login_desc{
+	width: 100%;
+	text-align: center;
+	line-height: 1rem;
+	color: rgba(0, 0, 0, 0.77);
+	font-size: 20px;
+	margin-top: .8rem;
+	font-weight: bolder;
+}
+.userInfo{
+	width: 90%;
+	margin:0 auto;
+	margin-top: 1rem;
+	overflow: hidden;
+	zoom: 1;
+}
+.login input{
+	border: 0;
+	outline: 0;
+}
+.login .tel{
+	width: 60%;
+	border: 1px solid #e0e0e0;
+	border-radius:5px;
+	padding:.5rem;
+	font-size: 20px;
+	float: left;
+}
+.login .confirm{
+	padding:.5rem .8rem;
+	color: #fff;
+	font-size: 20px;
+	border-radius:5px;
+	float: right;
+	background: #e0e0e0;
+}
+.login .code{
+	width: 100%;
+	padding:.5rem;
+	font-size: 20px;
+	border: 1px solid #e0e0e0;
+	border-radius:5px;
+	box-sizing: border-box;
+	margin:.5rem 0;
+}
+.submit_btn{
+	border: 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.75rem;
+	outline: 0;
+}
+.ok{
+	background: #ff8963 !important;
+}
