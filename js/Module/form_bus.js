@@ -16,7 +16,7 @@ window.form_busModule = Object.create(baseModule);
 		    	 dataType: "jsonp", 
 		    	 success: function (d) {    
 		            if(d.status==0){  
-		            	var url = "http://api.map.baidu.com/geocoder/v2/?ak=Tgk0XhwfyVplrxx101rhxehdVFtsaVam&callback=renderReverse&location="+d.content.point.y+","+ d.content.point.x+"&output=json&pois=0"; 
+		            	var url = "https://api.map.baidu.com/geocoder/v2/?ak=Tgk0XhwfyVplrxx101rhxehdVFtsaVam&callback=renderReverse&location="+d.content.point.y+","+ d.content.point.x+"&output=json&pois=0"; 
 		                $.ajax({    
 					        type: "GET",    
 					        dataType: "jsonp",    
