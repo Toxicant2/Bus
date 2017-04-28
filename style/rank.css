@@ -35,7 +35,8 @@
 	max-height: 15.266667rem;
 	background:white;
 	margin: .8rem auto;
-	overflow: hidden;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 .rank .rank_list .list_item{
 	margin: 0 .5rem;

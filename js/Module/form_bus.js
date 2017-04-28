@@ -10,7 +10,32 @@ window.form_busModule = Object.create(baseModule);
 		morning:false,
 		evening:false,
 		renderContent:function(){
-			
+			$.ajax({
+		    	url:'https://api.map.baidu.com/location/ip?ak=Tgk0XhwfyVplrxx101rhxehdVFtsaVam&coor=bd09ll',
+		    	 type: "GET", 
+		    	 dataType: "jsonp", 
+		    	 success: function (d) {    
+		            if(d.status==0){  
+		            	var url = "http://api.map.baidu.com/geocoder/v2/?ak=Tgk0XhwfyVplrxx101rhxehdVFtsaVam&callback=renderReverse&location="+d.content.point.y+","+ d.content.point.x+"&output=json&pois=0"; 
+		                $.ajax({    
+					        type: "GET",    
+					        dataType: "jsonp",    
+					        url: url,   
+					        beforeSend: function(){   
+					            $("#selcity").html('正在定位...');   
+					        },   
+					        success: function (json) {    
+					            if(json.status==0){ 
+					                $("#selcity").html(json.result.formatted_address);   //json.result.addressComponent.city
+					            }   
+					        },   
+					        error: function (XMLHttpRequest, textStatus, errorThrown) {    
+					            $("#selcity").html("定位失败");    
+					        }   
+					    });
+		            }   
+		        },   
+		    });
 		},
 		changeCityName:function(cityName){
 			this.selcity.innerHTML = cityName;

@@ -1,12 +1,12 @@
 window.EventCenter = {};
-window.myScroll = null;
+/*window.myScroll = null;*/
 
-$(EventCenter).bind('iscroll_load', function(){
+/*$(EventCenter).bind('iscroll_load', function(){
 	myScroll = new IScroll('.rank_list', {
        scrollbars: true,
        bounce:true
     });
-});
+});*/
 
 $(EventCenter).bind('city_change', function(event,cityName){
 	form_busModule.changeCityName(cityName);
